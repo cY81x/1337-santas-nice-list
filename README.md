@@ -1,6 +1,6 @@
 # 1337-santas-nice-list     
 
-[santa](static/img/santa.png)
+[santa](/static/img/santa.png)
 
 In a world aglow with winter's charm,
 Where snowflakes dance and spirits warm,
