@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #000000; /* Black background */
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    /* Removed overflow: hidden; to allow scrolling */
+}
+
+h1 {
+    font-family: 'Mountains of Christmas', cursive; /* Festive font for the title */
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Align items in the center */
+}
+
+.grinchen-image {
+    width: 300px; /* Width for Grinchen image */
+    height: auto;
+    margin-bottom: 20px; /* Space between image and scoreboard */
+    object-fit: cover;
+}
+
+.scoreboard {
+    width: 600px; /* Increased width for scoreboard */
+    overflow-x: auto; /* Allows horizontal scrolling for the table */
+}
+
+table {
+    width: 100%; /* Makes table use full width of its container */
+    border-collapse: collapse;
+    background-color: #ff0000; /* Red table background */
+}
+
+th, td {
+    padding: 8px 15px;
+    border: 1px solid #fff;
+    color: #fff; /* White text for contrast */
+    font-family: 'Roboto Mono', monospace; /* Tech font for the scoreboard */
+}
+
+th {
+    background-color: #004225; /* Darker green for headers */
+}
+
+tr:nth-child(even) {
+    background-color: #1a8231; /* Lighter green for alternate rows */
+}
+
+.snowflake {
+    color: #fff;
+    font-size: 1em;
+    position: fixed;
+    top: -10%;
+    z-index: -1; /* Place snowflakes in the background */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap'); /* VT323 is a blocky, monospace font */
+
+.christmas-ball {
+    background-color: red; /* Red background for the ball */
+    border-radius: 50%; /* Makes the div circular */
+    width: 40px; /* Width of the ball */
+    height: 40px; /* Height of the ball */
+    position: absolute; /* Allows for absolute positioning on the page */
+    box-shadow: 0 0 10px 5px rgba(255, 0, 0, 0.5); /* Shiny effect */
+    display: flex; /* Ensures content (if any) is centered */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    color: white; /* Text color, if you decide to add text */
+    font-weight: bold; /* Bold text, if you decide to add text */
+    text-shadow: 0px 0px 6px #fff; /* Optional: adds a glow to text */
+    z-index: 1000;
+}
+
+.sinus-scroller {
+    font-family: 'VT323', monospace; /* Blocky, monospace font */
+    color: blue; /* Blue color for the text */
+    white-space: nowrap;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2; /* Display in front of all other elements */
+    font-size: 3em; /* Even larger font size */
+}
+
+.sinus-scroller span {
+    position: absolute;
+    display: inline-block;
+}

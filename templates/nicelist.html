@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>s4N742 L1s7 0f N1c3 h4X0r2</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>s4N742 L1s7 0f N1c3 h4X0r2</h1>
+    <div class="container">
+        <img src="{{ url_for('static', filename='img/santa.png') }}" alt="Grinchen" class="grinchen-image">
+        <div class="scoreboard">
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Organization</th>
+                    <th>Position</th>
+                    <th>Time (HH:MM)</th>
+                </tr>
+                {% for row in data %}
+                    <tr>
+                        <td>{{ row.Position }}</td>                      
+                        <td>{{ row.Name }}</td>
+                        <td>{{ row.Organization }}</td>
+                        <td>{{ row.Time }}</td>
+                    </tr>
+                {% endfor %}
+            </table>
+        </div>
+    </div>
+    
+    <script src="{{ url_for('static', filename='js/effects.js') }}"></script>
+</body>
+</html>
