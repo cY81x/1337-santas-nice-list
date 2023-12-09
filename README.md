@@ -1,21 +1,6 @@
 # 1337-santas-nice-list     
-                    .------,
-      .\/.          |______|
-    _\_}{_/_       _|_Ll___|_
-     / }{ \       [__________]          .\/.
-      '/\'        /          \        _\_\/_/_
-                 ()  o  o    ()        / /\ \
-                  \ ~~~   .  /          '/\'
-             _\/   \ '...'  /    \/_
-              \\   {`------'}    //
-               \\  /`---/',`\\  //
-                \/'  o  | |\ \`//
-                /'      | | \/ /\
-   __,. -- ~~ ~|    o   `\|      |~ ~~ -- . __
-               |                 |
-          jgs  \    o            /
-                `._           _.'
-                   ^~- . -  ~^ 
+
+[santa](static/img/santa.png)
 
 In a world aglow with winter's charm,
 Where snowflakes dance and spirits warm,
